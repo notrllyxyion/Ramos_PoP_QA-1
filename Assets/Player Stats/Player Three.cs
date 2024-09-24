@@ -16,7 +16,6 @@ public class PlayerThree : MonoBehaviour
     public int PhysicalDamage = 9009;
     public int MagicalDamage = 3003;
 
-
     public void ButtonPressed()
     {
         text_w.text = $" Player One Stats: \r\n \r\n Name: {Name} \r\n Age: {25} \r\n Health: {Health} \r\n Aura: {Aura} \r\n Rizz: {rizz} \r\n Armor: {armor} \r\n Speed: {Speed} \r\n Mana: {mana} \r\n Physical Damage: {PhysicalDamage} \r\n Magical Damage; {MagicalDamage} ";
